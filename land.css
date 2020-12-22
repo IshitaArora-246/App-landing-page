@@ -1,0 +1,109 @@
+body{
+    /* background-color: purple; */
+    /* background:linear-gradient(rgb(188, 238, 253,0.8),rgb(188, 238, 253,0.8)), url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/04/shutterstock_481521433.jpg);  */
+    background:linear-gradient(rgba(255, 157, 0, 0.4),rgba(55, 208, 0, 0.4)), url(backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+    color: white;
+    font-family: Audiowide;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+#des{
+    font-size: medium;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.boxing{
+    font-size: 30px;
+    color: rgb(252, 241, 243);
+    height: 100%;
+    position: 'absolute';
+    top: 10%;
+    left: 10%;
+    padding: 5%;
+    box-sizing: border-box;  
+}
+
+#tagline{
+    font-size: 24px;
+    padding: 10px;
+    font-family: Monotype Corsiva;
+    margin-right: 85px;
+}
+
+#heading{
+    font-family: Audiowide;
+    padding-left: 5px;
+    margin-right: 10px;
+    font-size: 36px;
+}
+
+.contentish{
+    font-family: pacifico;
+    color:rgb(24, 24, 24);
+    margin-right: 150px;
+    margin-top: 85px;
+}
+
+#vector{
+    padding:0 90px;
+    margin: 3% 3%;
+    height: 400px;
+}
+
+#vector:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+    transition:all 0.6s ease-in-out;
+}
+
+#spc{
+    color: white;
+}
+
+#spc:hover{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+}
+
+.nav-item{
+    color:white;
+    padding:15px;
+    list-style: none;
+}
+
+#link{
+    margin-right: 110px;
+    margin-top: 50px;
+    height: 50px;
+    border: none;
+    margin-bottom:20% ;
+}
+
+#link:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition:all 0.6s ease-in-out;
+}
+
+#logo{
+    padding: 2px;
+    height: 40px;
+    margin: 5px 5px;
+}
+

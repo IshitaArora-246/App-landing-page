@@ -1,0 +1,133 @@
+body{
+    background:linear-gradient(rgba(255, 157, 0, 0.4),rgba(55, 208, 0, 0.27)), url(backg.jpg);
+    /* background-image: url("feed.png"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+form h1{
+    font-weight: 300;
+    font-family: lobster;
+    color:black;
+}
+
+.boxing{
+    color: rgb(252, 241, 243);
+    height: 100%;
+    position: 'absolute';
+    top: 10%;
+    left: 10%;
+    padding: 5%;
+    box-sizing: border-box;  
+}
+
+#vector{
+    padding:0 90px;
+    margin: 3% 3%;
+    height: 330px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+#spc{
+    color: white;
+}
+
+#spc:hover{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+}
+
+span{
+    color: white;
+    font-family: Audiowide;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#logo{
+    padding: 2px;
+    height: 40px;
+    margin: 5px 5px;
+}
+
+.nav-item{
+    padding:15px;
+    list-style: none;
+}
+
+form{
+    margin-top:.5%;
+    
+    /* background-color: rgb(255, 220, 226); */
+}
+
+.form1{
+    display: inline;
+    /* background-color: rgb(255, 220, 226); */
+    text-align: center;
+}
+
+input,textarea{
+    width: 300px;
+    border: 0.5px solid rgb(0, 51, 56);    
+    border-radius: 5px;
+}
+
+.details{
+    color: black;
+    padding: 10px;
+}
+
+.btn{
+    text-align: center;
+}
+
+#butto{
+    margin-left: 700px;
+}
+
+
+.fas,.fa-2x{
+    justify-content: space-around;
+    color: #282828;
+    display: inline-flex;
+}
+
+.fa-frown:hover{
+    transition: ease-in;
+    transition: 0.5s;
+
+    color: rgb(199, 0, 0);
+}
+
+.fa-meh:hover{
+    transition: ease-in;
+    transition: 0.5s;
+
+    color: rgb(236, 106, 0);
+}
+
+.fa-smile:hover{
+    color: rgb(223, 201, 4);
+    transition: ease-in;
+    transition: 0.5s;
+
+}
+
+.fa-grin-beam:hover{
+    color: rgb(111, 207, 0);
+    transition: ease-in;
+    transition: 0.5s;
+
+}
+
+.fa-laugh-beam:hover{
+    color: rgb(22, 134, 50);
+    transition: ease-in;
+    transition: 0.5s;
+
+}
